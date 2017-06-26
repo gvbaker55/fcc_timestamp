@@ -2,9 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <title>FCC Timestamp Microservice</title>
   </head>
   <body>
-    <h1>A Simple Timestamp Microservice</h1>
+    <div class="container">
+      <h1>API Basejump: Timstamp Microservice</h1>
+        <div class="well">
+          <h4>User Stories:</h3>
+          <ul>
+            <li> I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016).</li>
+            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+          </ul>
+          <h2>Example Usage:</h2>
+          <code>https://guarded-badlands-24365.herokuapp.com/December%2017,%202017</code>
+          <code>https://guarded-badlands-24365.herokuapp.com/1513468800</code>
+        </div>
+    </div>
   </body>
 </html>
