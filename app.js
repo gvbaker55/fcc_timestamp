@@ -3,6 +3,7 @@ var bodyParser = require("body-parser");
 var app = express();
 var cors = require('cors');
 var bootstrap = require("bootstrap");
+var $ = require('jQuery');
 
 
 app.use(express.static('public'));
