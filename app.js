@@ -34,6 +34,6 @@ app.get("/:dateVal", function (req, res, next){
 });
 
 // listen for requests :)
-var listener = app.listen(process.env.PORT, function () {
-  console.log('Your app is listening on ' + listener.address().port););
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("Server running");
 });
